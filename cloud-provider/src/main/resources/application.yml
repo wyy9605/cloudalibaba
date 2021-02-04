@@ -1,0 +1,10 @@
+spring:
+  application:
+    # 服务名
+    name: alibaba-provider
+  cloud:
+    nacos:
+      discovery:
+        #必须配置ip地址
+        server-addr: 39.96.85.93:8848
+        namespace: alibaba
