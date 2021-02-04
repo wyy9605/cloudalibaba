@@ -1,0 +1,12 @@
+server:
+  port: 8090
+  
+spring:
+  application:
+    # 服务名
+    name: alibaba-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 39.96.85.93:8848
+        namespace: alibaba
